@@ -3,7 +3,7 @@
 long timer1 = 0;
 
 int timeCompare(){
-  if((millis() - timer1)>= 10){
+  if((millis() - timer1)>= dt){
     timer1 = millis();
     return true;
   }
